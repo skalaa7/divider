@@ -1,0 +1,184 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jul  5 14:33:21 2022
+| Host         : DESKTOP-POC374B running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_pivot_control_sets_placed.rpt
+| Design       : top_pivot
+| Device       : xc7z010
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   106 |
+|    Minimum number of control sets                        |   106 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   117 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   106 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |   105 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            4546 |          865 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              56 |           25 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            3193 |         1377 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------+------------------------------+------------------+------------------+----------------+--------------+
+| Clock Signal |         Enable Signal        | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------+------------------------------+------------------+------------------+----------------+--------------+
+|  clk         | ip_core/pivotCol_next        | reset            |                3 |             11 |         3.67 |
+|  clk         | ip_core/i_next               | reset            |                8 |             19 |         2.38 |
+|  clk         | ip_core/newRow_next[29]_190  | reset            |               17 |             31 |         1.82 |
+|  clk         | ip_core/newRow_next[98]_157  | reset            |                6 |             31 |         5.17 |
+|  clk         | ip_core/newRow_next[17]_106  | reset            |               12 |             31 |         2.58 |
+|  clk         | ip_core/newRow_next[18]_126  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[12]_123  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[22]_108  | reset            |                6 |             31 |         5.17 |
+|  clk         | ip_core/newRow_next[14]_124  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[23]_193  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[19]_107  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[25]_192  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[13]_195  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[26]_109  | reset            |               17 |             31 |         1.82 |
+|  clk         | ip_core/newRow_next[1]_201   | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[30]_129  | reset            |               18 |             31 |         1.72 |
+|  clk         | ip_core/newRow_next[16]_125  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[32]_130  | reset            |                7 |             31 |         4.43 |
+|  clk         | ip_core/newRow_next[34]_131  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[15]_194  | reset            |                7 |             31 |         4.43 |
+|  clk         | ip_core/newRow_next[21]_105  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[24]_127  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[2]_118   | reset            |               12 |             31 |         2.58 |
+|  clk         | ip_core/newRow_next[27]_191  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[28]_128  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[31]_189  | reset            |               21 |             31 |         1.48 |
+|  clk         | ip_core/newRow_next[0]_117   | reset            |                8 |             31 |         3.88 |
+|  clk         | ip_core/newRow_next[35]_187  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[36]_132  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[37]_186  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[38]_133  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[20]_102  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[100]_158 | reset            |                7 |             31 |         4.43 |
+|  clk         | ip_core/newRow_next[33]_188  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[10]_122  | reset            |                7 |             31 |         4.43 |
+|  clk         | ip_core/newRow_next[11]_196  | reset            |                8 |             31 |         3.88 |
+|  clk         | ip_core/newRow_next[47]_181  | reset            |               23 |             31 |         1.35 |
+|  clk         | ip_core/newRow_next[62]_113  | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[84]_153  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[88]_154  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[92]_155  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[43]_183  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[70]_146  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[68]_145  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[67]_172  | reset            |               12 |             31 |         2.58 |
+|  clk         | ip_core/newRow_next[73]_169  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[78]_150  | reset            |               18 |             31 |         1.72 |
+|  clk         | ip_core/newRow_next[93]_162  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[94]_112  | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[95]_161  | reset            |               25 |             31 |         1.24 |
+|  clk         | ip_core/newRow_next[96]_156  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[54]_110  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[52]_140  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[87]_165  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[6]_120   | reset            |                7 |             31 |         4.43 |
+|  clk         | ip_core/newRow_next[75]_168  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[72]_147  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[79]_166  | reset            |               25 |             31 |         1.24 |
+|  clk         | ip_core/newRow_next[45]_182  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[55]_178  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[80]_151  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[4]_119   | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[82]_152  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[41]_184  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[89]_164  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[7]_198   | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[44]_136  | reset            |               18 |             31 |         1.72 |
+|  clk         | ip_core/newRow_next[76]_149  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[50]_139  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[58]_111  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[71]_170  | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[74]_148  | reset            |               18 |             31 |         1.72 |
+|  clk         | ip_core/newRow_next[81]_103  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[8]_121   | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[5]_199   | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[39]_185  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[60]_142  | reset            |               16 |             31 |         1.94 |
+|  clk         | ip_core/newRow_next[46]_137  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[40]_134  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[3]_200   | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[59]_176  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[61]_175  | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[49]_104  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[63]_174  | reset            |               24 |             31 |         1.29 |
+|  clk         | ip_core/newRow_next[65]_173  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[69]_171  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[57]_177  | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[64]_143  | reset            |               12 |             31 |         2.58 |
+|  clk         | ip_core/newRow_next[77]_167  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[85]_101  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[86]_114  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[90]_115  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[66]_144  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/newRow_next[91]_163  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[42]_135  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[56]_141  | reset            |               12 |             31 |         2.58 |
+|  clk         | ip_core/newRow_next[83]_116  | reset            |               13 |             31 |         2.38 |
+|  clk         | ip_core/newRow_next[48]_138  | reset            |                9 |             31 |         3.44 |
+|  clk         | ip_core/newRow_next[51]_180  | reset            |               14 |             31 |         2.21 |
+|  clk         | ip_core/newRow_next[53]_179  | reset            |               11 |             31 |         2.82 |
+|  clk         | ip_core/newRow_next[97]_160  | reset            |               10 |             31 |         3.10 |
+|  clk         | ip_core/newRow_next[9]_197   | reset            |               19 |             31 |         1.63 |
+|  clk         | ip_core/newRow_next[99]_159  | reset            |               15 |             31 |         2.07 |
+|  clk         | ip_core/pivot_next           | reset            |               11 |             32 |         2.91 |
+|  clk         |                              | reset            |               25 |             56 |         2.24 |
+|  clk         |                              |                  |              865 |           4554 |         5.26 |
++--------------+------------------------------+------------------+------------------+----------------+--------------+
+
+

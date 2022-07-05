@@ -42,11 +42,7 @@ entity top_pivot is
            we_s : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
            addr_s : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
            data_in_s : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-           data_out_s : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-           
-           pivot: out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           pomocni: out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           din:out STD_LOGIC_VECTOR(31 DOWNTO 0));
+           data_out_s : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
 end top_pivot;
 
 architecture Behavioral of top_pivot is
@@ -87,11 +83,8 @@ component ip_pivot
            start : in STD_LOGIC;
            ready: out STD_LOGIC;
            
-           mux_sel : out STD_LOGIC;
+           mux_sel : out STD_LOGIC
            
-           pivot: out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           pomocni :  out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           din :  out STD_LOGIC_VECTOR(31 DOWNTO 0)
            );
 end component;
 
@@ -157,10 +150,7 @@ ip_core: ip_pivot
            
            start => start,
            ready => ready,
-           mux_sel => mux_sel_s,
-           pivot => pivot,
-           pomocni => pomocni,
-           din=>din
+           mux_sel => mux_sel_s
            );
            
 process(en_s, we_s, addr_s, data_in_s, start,mux_sel_s,

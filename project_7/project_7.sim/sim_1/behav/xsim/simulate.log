@@ -20675,7 +20675,5 @@ Note: xor je okino
 Time: 105310 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
 Time: 105330 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
-blk_mem_gen_v8_4_4 collision detected at time: 108410000, Instance: top_pivot_tb.duv.bram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B write address: 0
-blk_mem_gen_v8_4_4 collision detected at time: 108430000, Instance: top_pivot_tb.duv.bram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B write address: 0
 Note: STOP!!!!!!
-Time: 212560 ns  Iteration: 1  Process: /top_pivot_tb/stim_gen  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sim_1/new/top_pivot_tb.vhd
+Time: 516040 ns  Iteration: 1  Process: /top_pivot_tb/stim_gen  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sim_1/new/top_pivot_tb.vhd

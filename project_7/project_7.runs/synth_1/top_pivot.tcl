@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.runs/synth_1/top_pivot.tcl"
+  variable script "C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.runs/synth_1/top_pivot.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,27 +77,27 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.cache/wt [current_project]
-set_property parent.project_path C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.cache/wt [current_project]
+set_property parent.project_path C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.xpr [current_project]
 set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
-set_property ip_output_repo c:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/new/divider_32.vhd
-  C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/new/dsp.vhd
-  C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/new/ip_pivot.vhd
-  C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/new/top_pivot.vhd
+  C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+  C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/dsp.vhd
+  C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/ip_pivot.vhd
+  C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/top_pivot.vhd
 }
-read_ip -quiet C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.gen/sources_1/ip/div_gen_0/div_gen_0_ooc.xdc]
+read_ip -quiet C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.gen/sources_1/ip/div_gen_0/div_gen_0_ooc.xdc]
 
-read_ip -quiet C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
+read_ip -quiet C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -108,8 +108,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/constrs_1/new/konst1.xdc
-set_property used_in_implementation false [get_files C:/Users/Dusan/Desktop/8_semestar/system_level/project_7/project_7.srcs/constrs_1/new/konst1.xdc]
+read_xdc C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/constrs_1/new/konst1.xdc
+set_property used_in_implementation false [get_files C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/constrs_1/new/konst1.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

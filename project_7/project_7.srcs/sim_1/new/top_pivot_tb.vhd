@@ -52,20 +52,14 @@ component top_pivot
            we_s : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
            addr_s : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
            data_in_s : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-           data_out_s : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-           pivot: out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           pomocni:out STD_LOGIC_VECTOR(31 DOWNTO 0);
-           din:out STD_LOGIC_VECTOR(31 DOWNTO 0) );
+           data_out_s : OUT STD_LOGIC_VECTOR(31 DOWNTO 0) );
   end component;
  
   
 signal clk,reset, start_tb, ready_tb, en_s_tb, we_s_tb: std_logic;
 signal  addr_s_tb: STD_LOGIC_VECTOR(12 DOWNTO 0);
 signal data_in_s_tb, data_out_s_tb : STD_LOGIC_VECTOR(31 DOWNTO 0);
-signal pivot: STD_LOGIC_VECTOR(31 DOWNTO 0);
-signal pivot_13: STD_LOGIC_VECTOR(12 DOWNTO 0);
-signal pomocni: STD_LOGIC_VECTOR(31 DOWNTO 0);
-signal din: STD_LOGIC_VECTOR(31 DOWNTO 0);
+
 begin
 
 duv: top_pivot
@@ -77,12 +71,8 @@ duv: top_pivot
         we_s(0) =>we_s_tb,
         addr_s =>addr_s_tb,
         data_in_s =>data_in_s_tb,
-        data_out_s =>data_out_s_tb,
-        pivot => pivot,
-        pomocni => pomocni,
-        din=>din);
+        data_out_s =>data_out_s_tb);
 
-pivot_13 <= pivot (12 downto 0);
 clk_gen: process
     begin
         clk <= '0', '1' after 10ns;

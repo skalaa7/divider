@@ -110,12 +110,15 @@ begin
             dout_tdata_55<=std_logic_vector(unsigned(dout_tdata_div)-1048576);
         end if;
         
+       -- if(dout_tdata_55(0) = '1') then
+          --  dout_tdata_55 <= std_logic_vector(unsigned(dout_tdata_div)-1);
+       -- end if;
     end process;
     
     --process(clk) is
     --begin
     --    if(rising_edge(clk)) then
-            dout_tdata <= dout_tdata_55(30 DOWNTO 0)&'0';
+            dout_tdata <= dout_tdata_55(30 DOWNTO 0)&'1';
     --    end if;
     --end process;
     
