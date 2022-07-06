@@ -20614,66 +20614,74 @@ Time: 103100 ns  Iteration: 1  Process: /top_pivot_tb/stim_gen  File: C:/Users/A
 Note: second loop end
 Time: 103100 ns  Iteration: 1  Process: /top_pivot_tb/stim_gen  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sim_1/new/top_pivot_tb.vhd
 Note: xor je okino
-Time: 104370 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104370 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104370 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104370 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104410 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104370 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104410 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104410 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104430 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104410 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104450 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104410 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104470 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104430 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104490 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104430 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104530 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104450 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104530 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104450 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104550 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104470 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104570 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104470 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104650 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104490 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104650 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104490 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104710 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104530 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104710 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104530 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104790 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104530 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104790 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104550 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104970 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104550 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104970 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104570 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 104990 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104570 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105010 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104650 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105050 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104650 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105050 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104650 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105150 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104710 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105150 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104710 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105190 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104710 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105190 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104790 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105310 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104790 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105310 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Time: 104790 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
 Note: xor je okino
-Time: 105330 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__103  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
-Note: STOP!!!!!!
-Time: 516040 ns  Iteration: 1  Process: /top_pivot_tb/stim_gen  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sim_1/new/top_pivot_tb.vhd
+Time: 104970 ns  Iteration: 1  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Note: xor je okino
+Time: 104970 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Note: xor je okino
+Time: 104970 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Note: xor je okino
+Time: 104990 ns  Iteration: 8  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Note: xor je okino
+Time: 104990 ns  Iteration: 9  Process: /top_pivot_tb/duv/ip_core/div/line__104  File: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.srcs/sources_1/new/divider_32.vhd
+Note: xor je okino
+Time: 105010 ns  Iteration: 8  Proc

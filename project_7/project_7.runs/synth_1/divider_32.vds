@@ -1,14 +1,14 @@
-
-*** Running vivado
-    with args -log divider_32.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source divider_32.tcl
-
-
-
-****** Vivado v2020.2 (64-bit)
-  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul  6 14:44:32 2022
+# Process ID: 3784
+# Current directory: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.runs/synth_1
+# Command line: vivado.exe -log divider_32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source divider_32.tcl
+# Log file: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.runs/synth_1/divider_32.vds
+# Journal file: C:/Users/Andrej/VHDL_projects/delitelj/najnoviji/project_7/project_7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
 source divider_32.tcl -notrace
 Command: synth_design -top divider_32 -part xc7z010clg400-1 -mode Out_of_context
 Starting synth_design
