@@ -18,7 +18,6 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -56,6 +55,7 @@ component div_gen_0
 end component;
 
 signal dout_tdata_55: STD_LOGIC_VECTOR(55 DOWNTO 0);
+signal dout_tdata_mid: STD_LOGIC_VECTOR(55 DOWNTO 0);
 --signal divisor_tdata_s: STD_LOGIC_VECTOR(31 DOWNTO 0);
 --signal dividend_tdata_s: STD_LOGIC_VECTOR(31 DOWNTO 0);
 
@@ -100,16 +100,31 @@ begin
         end if;
         
     end process;
-    process(dout_tdata_div,xor_reg(0))
+    process(dout_tdata_div,dout_tdata_mid,xor_reg(0))
     begin
-        dout_tdata_55<=dout_tdata_div;
+        dout_tdata_mid<=dout_tdata_div;
+        dout_tdata_55<=dout_tdata_mid;
+        if(dout_tdata_div(21)='1') then
+            dout_tdata_mid<=std_logic_vector(unsigned(dout_tdata_div)-1048576);
+        end if;
         if(xor_reg(0)='1')  then --trebaju registri da cuvaju znakove kako ulaze
-            dout_tdata_55<=std_logic_vector(unsigned(not dout_tdata_div)+1);--ili 1
+            dout_tdata_55<=std_logic_vector(unsigned(not dout_tdata_mid)+1);--ili 1
             report "xor je okino";
-        elsif(dout_tdata_div(21)='1') then
-            dout_tdata_55<=std_logic_vector(unsigned(dout_tdata_div)-1048576);
+        --elsif(dout_tdata_div(21)='1') then
+        --    dout_tdata_55<=std_logic_vector(unsigned(dout_tdata_div)-1048576);
         end if;
         
+       -- if(dout_tdata_55(0) = '1') then
+          --  dout_tdata_55 <= std_logic_vector(unsigned(dout_tdata_div)-1);
+       -- end if;
     end process;
-    dout_tdata <= dout_tdata_55(30 DOWNTO 0)&'0';
+    
+    --process(clk) is
+    --begin
+    --    if(rising_edge(clk)) then
+            dout_tdata <= dout_tdata_55(30 DOWNTO 0)&'0';
+    --    end if;
+    --end process;
+    
+    
 end Behavioral;

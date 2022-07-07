@@ -68,7 +68,7 @@ begin
         a_in_s <=x"ffed70a3",x"00100000" after 10ns,x"fff851eb" after 20ns,x"ffeb851e" after 30ns,x"fff947ae" after 40ns,x"fff0a3d7" after 50ns,x"ffeb851e" after 60ns,x"00175c29" after 70ns,
         x"fff147ae" after 80ns, x"ffe947ae" after 90ns,x"fff147ae" after 100ns, x"0018a3d7" after 110ns,x"0012e147" after 120ns, x"00199999" after 130ns,x"0018f5c2" after 200ns;
         --                                                                  
-        b_in_s <=x"00c1cac0";--,x"ff800000" after 20ns,x"ffc00000" after 30ns,x"0016b851" after 40ns ;
+        b_in_s <=x"0016b851";--,x"ff800000" after 20ns,x"ffc00000" after 30ns,x"0016b851" after 40ns ;
         --                                            
     wait;
     end process;
